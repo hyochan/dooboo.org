@@ -24,8 +24,8 @@ module.exports = {
       {
         redirects: [
           {
-            to: "/docs/next/hello",
-            from: "/docs/hello",
+            to: "/docs/current/introduction",
+            from: "/docs/introduction",
           },
         ],
       },
@@ -51,14 +51,14 @@ module.exports = {
           position: "right",
         },
         {
+          type: "localeDropdown",
+          position: "right",
+        },
+        {
           type: "docsVersionDropdown",
           position: "right",
           dropdownActiveClassDisabled: true,
           dropdownItemsAfter: [],
-        },
-        {
-          type: "localeDropdown",
-          position: "right",
         },
       ],
     },
@@ -69,8 +69,8 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Implementation",
-              to: "/docs/next/hello",
+              label: "Intro",
+              to: "/docs/introduction",
             },
           ],
         },
@@ -105,8 +105,8 @@ module.exports = {
           lastVersion: "current",
           versions: {
             current: {
-              label: "next",
-              path: "next",
+              label: "current",
+              path: "current",
             },
           },
           sidebarPath: require.resolve("./sidebars.js"),

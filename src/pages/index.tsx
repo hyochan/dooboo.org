@@ -94,7 +94,7 @@ function Feature({ key, imageUrl, title, description }) {
 
 function Home() {
   const context = useDocusaurusContext();
-  const { siteConfig = { title: "dooboo" } } = context;
+  const { siteConfig } = context;
   return (
     <Layout
       // @ts-ignore
@@ -103,7 +103,11 @@ function Home() {
     >
       <header className={classnames("hero hero--primary", styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
+          <h1 className="hero__title">
+            <Translate id="homepage.title" description="homepage.title title">
+              dooboo
+            </Translate>
+          </h1>
           <p className="hero__subtitle">
             <Translate
               id="homepage.description"
@@ -118,7 +122,7 @@ function Home() {
                 "button button--outline button--secondary button--lg",
                 styles.getStarted
               )}
-              to={useBaseUrl("/docs/hello")}
+              to={useBaseUrl("/docs/introduction")}
             >
               <Translate
                 id="homepage.getstarted"
