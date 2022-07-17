@@ -27,10 +27,6 @@ module.exports = {
             to: "/docs/next/hello",
             from: "/docs/hello",
           },
-          {
-            to: "/docs/next",
-            from: "/docs",
-          },
         ],
       },
     ],
