@@ -1,0 +1,10 @@
+{
+  "version.label": {
+    "message": "다음",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Documentation": {
+    "message": "문서",
+    "description": "The label for sitebar docs"
+  }
+}
