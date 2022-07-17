@@ -7,7 +7,7 @@
 
 module.exports = {
   title: "dooboo",
-  url: "https://docs.dooboo.io",
+  url: "https://dooboo.org",
   baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/favicon.ico",
@@ -46,7 +46,7 @@ module.exports = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/hyochan/docs.dooboo.io",
+          href: "https://github.com/hyochan/dooboo.org",
           label: "GitHub",
           position: "right",
         },
@@ -112,12 +112,12 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: ({ locale, docPath }) => {
             if (locale !== "en") {
-              return `https://github.com/hyochan/docs.dooboo.io/tree/main/${locale}`;
+              return `https://github.com/hyochan/dooboo.org/tree/main/${locale}`;
             }
             // We want users to submit doc updates to the upstream/next version!
             // Otherwise we risk losing the update on the next release.
             const nextVersionDocsDirPath = "docs";
-            return `https://github.com/hyochan/docs.dooboo.io/edit/main/${nextVersionDocsDirPath}/${docPath}`;
+            return `https://github.com/hyochan/dooboo.org/edit/main/${nextVersionDocsDirPath}/${docPath}`;
           },
         },
         theme: {
