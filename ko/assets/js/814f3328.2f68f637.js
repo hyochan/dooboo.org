@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdooboo_doc=self.webpackChunkdooboo_doc||[]).push([[535],{5641:function(o){o.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Intro","permalink":"/ko/blog/intro"}]}')}}]);

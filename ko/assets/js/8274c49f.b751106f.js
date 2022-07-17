@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdooboo_doc=self.webpackChunkdooboo_doc||[]).push([[622],{9951:function(o){o.exports=JSON.parse('{"permalink":"/ko/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
