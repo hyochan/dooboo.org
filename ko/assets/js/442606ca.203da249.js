@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdooboo_doc=self.webpackChunkdooboo_doc||[]).push([[615],{3826:function(o){o.exports=JSON.parse('[{"label":"intro","permalink":"/ko/blog/tags/intro","count":1}]')}}]);

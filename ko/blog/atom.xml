@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://dooboo.org/ko/blog</id>
+    <title>dooboo Blog</title>
+    <updated>2022-07-17T06:21:28.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://dooboo.org/ko/blog"/>
+    <subtitle>dooboo Blog</subtitle>
+    <icon>https://dooboo.org/ko/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Intro]]></title>
+        <id>intro</id>
+        <link href="https://dooboo.org/ko/blog/intro"/>
+        <updated>2022-07-17T06:21:28.000Z</updated>
+        <summary type="html"><![CDATA[안녕하세요. 블로그입니다.]]></summary>
+        <content type="html"><![CDATA[<p>안녕하세요. 블로그입니다.</p>]]></content>
+        <author>
+            <name>hyochan</name>
+            <uri>https://github.com/hyochan</uri>
+        </author>
+        <category label="intro" term="intro"/>
+    </entry>
+</feed>
