@@ -25,8 +25,12 @@ module.exports = {
         redirects: [
           {
             to: "/docs/current/introduction",
-            from: "/docs/introduction",
+            from: "/docs",
           },
+          {
+            to: "/docs/current/introduction",
+            from: "/docs/introduction",
+          }
         ],
       },
     ],
@@ -70,7 +74,7 @@ module.exports = {
           items: [
             {
               label: "Intro",
-              to: "/docs/introduction",
+              to: "/docs/current/introduction",
             },
           ],
         },
