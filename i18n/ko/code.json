@@ -163,6 +163,10 @@
     "message": "본문으로 건너뛰기",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
+  "homepage.title": {
+    "message": "두부",
+    "description": "dooboo"
+  },
   "homepage.section1": {
     "message": "스택 공유",
     "description": "StackShare"

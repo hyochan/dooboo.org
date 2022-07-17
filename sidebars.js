@@ -5,13 +5,21 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-module.exports = {
-  docs: {
-    Intro: [
-      'hello',
-    ],
-    Documentation: [
-      'hello',
-    ],
-  },
+const sidebars = {
+  docs: [
+    'introduction',
+    {
+      type: 'category',
+      label: 'Getting Started',
+      link: {
+        type: 'generated-index',
+      },
+      collapsed: false,
+      items: [
+        'configuration',
+      ],
+    },
+  ],
 };
+
+module.exports = sidebars;
